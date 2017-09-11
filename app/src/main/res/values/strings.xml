@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MYuYing</string>
+    <string name="pref_key_translate">translate</string>
+    <string name="pref_key_iat_show">iat_show</string>
+</resources>

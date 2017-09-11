@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:onClick="goSpeech"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_back"
+        android:text="语音识别"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:onClick="goWxCode"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_back"
+        android:text="二维码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#ffffff"
+        android:onClick="goNFC"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_back"
+        android:text="NFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#ffffff"
+        android:onClick="goPhoneX"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_back"
+        android:text="手机程序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skylin.uav.myuying.SpeechActivity">
+
+
+
+        <TextView
+            android:layout_marginBottom="100dp"
+            android:background="#fffafa"
+            android:id="@+id/mResultText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+
+
+    <Button
+        android:background="@drawable/button_back"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:id="@+id/iat_recognize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFF0"
+        android:text="点我说话"
+        tools:layout_editor_absoluteY="504dp"
+        tools:layout_editor_absoluteX="148dp" />
+</FrameLayout>
